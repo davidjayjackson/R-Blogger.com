@@ -31,3 +31,7 @@ install.packages(c("ggvis","htmlwidgets","maps","sunburstR", "lattice",
                    "statVisual", "mlr3viz", "klaR","DiagrammeR","pavo","rasterVis",
                    "timelineR","DataViz","d3r","d3heatmap","dashboard" ,"highcharter",
                    "rbokeh"), dependencies = TRUE)
+
+## Install Facebook Prophet libray in R-4.0.0
+
+devtools::install_github("facebook/prophet", subdir='R')
